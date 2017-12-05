@@ -1,0 +1,10 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 3rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font: normal;
+}
