@@ -1,29 +1,6 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-  <head>
-    <title>Emma Ryan</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="css/modules.css" rel="stylesheet">
-    <link href="css/grid.css" rel="stylesheet">
-    <link href="css/type.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" rel="stylesheet">
-  </head>
-
-  <body>
-
-    <header>
-      <div id="navigation" class="gutter-2 pad-t-1-2">
-        <nav class="list-group nav milli">
-          <ul class="list-group-inline">
-            <li class="gutter"><a href="illustration.html">About Me</a></li>
-            <li class="gutter"><a href="typography.html">My Work</a></li>
-            <li class="gutter"><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+---
+layout: default
+---
 
     <main class="">
 
@@ -38,15 +15,35 @@
 
       <section id="work">
 
+        <h3 class="text-center">My Work</h3>
+
+        <div>
+          <a href="{{site.baseurl}}lawn-doctors">
+            <figure>
+              <img class="img-flex" src="{{site.baseurl}}images/lawn-preview.jpg">
+              <figcaption class="text-center island">Logo Redesign and Rebranding</figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div>
+          <a href="{{site.baseurl}}font">
+            <figure>
+              <img class="img-flex" src="{{site.baseurl}}images/font-preview.jpg">
+              <figcaption class="text-center island">Font Design</figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div>
+          <a href="{{site.baseurl}}magazine">
+            <figure>
+              <img class="img-flex" src="{{site.baseurl}}images/magazine-preview.jpg">
+              <figcaption class="text-center island">Magazine Layout</figcaption>
+            </figure>
+          </a>
+        </div>
+
       </section>
 
-      <footer class="footer island">
-        <div class="line-separator"></div>
-        <p class="push-0 text-center">Contact me!</p>
-        <p class="text-center push-0">design@emmaryan.ca</p>
-      </footer>
-
     </main>
-
-  </body>
-</html>
