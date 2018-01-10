@@ -60,6 +60,15 @@ p {
   color: #f4f4f4;
 }
 
+.line-separator {
+  height: 0.5px;
+  background-color: #f4f4f4;
+  padding: 0;
+  max-width: 25rem;
+  align: center;
+}
+
+
 @media only screen and (min-width: 25em){
 
 
