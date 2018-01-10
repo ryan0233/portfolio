@@ -87,7 +87,18 @@ a figcaption:hover {
   text-decoration: none;
 }
 
+.preview {
+  filter: opacity(75%);
+  transition: filter .5s ease-in-out;
+}
 
+.preview:hover {
+  filter: opacity(100%);
+}
+
+h2 {
+  color: #f4f4f4;
+}
 
 @media only screen and (min-width: 25em){
 
