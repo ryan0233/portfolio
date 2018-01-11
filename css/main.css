@@ -112,6 +112,26 @@ figcaption {
   color: #f4f4f4;
 }
 
+#four {
+  font-size: 15rem;
+  line-height: 10rem;
+  color: #9b9b9b;
+}
+
+#yikes {
+  line-height: 1rem;
+}
+
+.btn-ghost {
+  color: #9b9b9b;
+  border-radius: 3px;
+}
+
+.btn-ghost:hover {
+  background-color: transparent;
+  color: #f4f4f4;
+}
+
 @media only screen and (min-width: 25em){
 
 
